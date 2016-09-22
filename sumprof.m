@@ -1,0 +1,1 @@
+function resultado = sumcostaylor(n)
