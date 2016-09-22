@@ -1,8 +1,8 @@
 # matlab_exercises
-Exercícios de matlab propostos no curso de Computação da graduação de ciências econômicas na FGV-Rio
+Exercícios de matlab propostos no curso de Computação da graduação de ciências econômicas na FGV-Rio 2016
 
 Lista em ordem alfabética dos programas criados e de suas funções
-  Obs.: Muitos programas não possuem as restrições necessárias. Exemplo: a função achar_div(n), que retorna um vetor com todos os divisores de n, deveria resultar em erro caso um número negativo fosse dado, mas isso não acontece. Deveria haver uma verificação no corpo da função.
+  Obs.: Muitos programas não possuem as restrições necessárias. Exemplo: a função achar_div(n), que retorna um vetor com todos os divisores de n, deveria resultar em erro caso um número negativo fosse dado, mas isso não acontece. Deveria haver uma verificação no corpo da função, mas, por preguiça, isso não foi feito.
 
 acertar_arcos(x)
   Converte qualquer arco, em radianos, em um arco congruente entre -2pi e 2pi
@@ -17,7 +17,7 @@ c2f(c)
   c2f = celsius to fahrenheit. Converte a temperatura em celsius em fahrenheit
 
 caracoroa(escolha)
-  Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador faz sua jogada aleatorizando sua escolha. Função retorna o resultado dizendo se o usuário ganhou ou perdeu.
+  Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador joga a moeda. Função retorna o resultado dizendo se o usuário ganhou ou perdeu.
 
 collatz(n)
   Conta quantos termos tem a sequência de collatz começando em n
@@ -26,7 +26,7 @@ collatz_vec(n)
   Retorna vetor com todos os números da sequência de Collatz iniciada em n
   
 conferirprimo()
-  Função interativa que pergunta o usuário qual número ele quer testar e retorna se esse número é primo ou não
+  Função interativa que pergunta ao usuário qual número ele quer testar e retorna se esse número é primo ou não
   
 contarprimo(n)  
   Retorna um vetor com todos os números primos que existem até n. Para contá-los, basta usar length(contarprimo(n))
@@ -48,7 +48,7 @@ coswhile(x,precisao)
   Precisão é o parâmetro que indica o "tamanho" do último termo considerável
   
 desv_padrao_amostral(x)
-  Retorna o desviao padrao amostral do conjunto de valores do vetor.
+  Retorna o desvio padrao amostral do conjunto de valores do vetor.
   
 exercicio1.2  
   Não é uma função. Exercício 1.2 da apostila
@@ -69,7 +69,7 @@ fibonacci(n)
   Acha o enésimo número de Fibonacci. A sequência começa com os termos 1,1,2,3,...
   
 oi_p2(nome, genero)
-  Função interativa que escreve diferentes mensagens dependendo do gênero.
+  Função interativa que escreve diferentes mensagens dependendo do gênero. O gênero pode ser ou 0 ou 1.
   
 maiorvalor(a,b,c)
   Retorna o maior valor entre a, b e c.
