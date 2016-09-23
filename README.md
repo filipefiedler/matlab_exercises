@@ -44,7 +44,7 @@ coswhile(x,precisao)
 desv_padrao_amostral(x)
 <br>  Retorna o desvio padrao amostral do conjunto de valores do vetor. </br>
   
-exercicio1.2  
+exercicio 1.2
 <br>  Não é uma função. Exercício 1.2 da apostila </br>
 
 extrai4(x)
