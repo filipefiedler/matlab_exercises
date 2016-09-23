@@ -4,114 +4,114 @@ Exercícios de matlab propostos no curso de Computação da graduação de ciên
 Lista em ordem alfabética dos programas criados e de suas funções
   Obs.: Muitos programas não possuem as restrições necessárias. Exemplo: a função achar_div(n), que retorna um vetor com todos os divisores de n, deveria resultar em erro caso um número negativo fosse dado, mas isso não acontece. Deveria haver uma verificação no corpo da função, mas, por preguiça, isso não foi feito.
 
-acertar_arcos(x)
+<b> acertar_arcos(x) </b>
 <br>  Converte qualquer arco, em radianos, em um arco congruente entre -2pi e 2pi </br>
   
-achar_div(n)
+<b> achar_div(n) </b>
 <br>  Retorna um vetor com todos os divisores de um determinado número natural n </br>
   
-aleatorio(a,b)
+<b> aleatorio(a,b) </b>
 <br>  Retorna um número aleatório entre os números a e b </br>
 
-caracoroa(escolha)
+<b> caracoroa(escolha) </b>
 <br>  Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador joga a moeda. Função retorna o resultado dizendo se o usuário ganhou ou perdeu. </br>
 
-collatz(n)
+<b> collatz(n) </b>
 <br>  Conta quantos termos tem a sequência de collatz começando em n </br>
   
-collatz_vec(n)
+<b> collatz_vec(n) </b>
 <br>  Retorna vetor com todos os números da sequência de Collatz iniciada em n </br>
   
-conferirprimo()
+<b> conferirprimo() </b>
 <br>  Função interativa que pergunta ao usuário qual número ele quer testar e retorna se esse número é primo ou não </br>
   
-contarprimogemeo(n)
+<b> contarprimogemeo(n) </b>
 <br>  Conta quantos pares de números primo-gêmeos existem até n </br>
   
-conversao(t,unidade)
+<b> conversao(t,unidade) </b>
 <br>  Converte a temperatura, em celsius ou fahrenheit, para outra unidade. A unidade deve ser 'c', para celsius, ou 'f', para fahrenheit. </br>
   
-costaylor(x,n)
+<b> costaylor(x,n) </b>
 <br>  Calcula o cosseno a partir de sua soma de Taylor até o enésimo termo da série </br>
   
-cosTaylor_values(x, precisao)
+<b> cosTaylor_values(x, precisao) </b>
 <br>  Retorna os valores da série de Taylor que determina o cosseno com a precisão desejada </br>
   
-coswhile(x,precisao)
+<b> coswhile(x,precisao) </b>
 <br>  Calcula a série de Taylor do cosseno. </br>
 <br>  Precisão é o parâmetro que indica o "tamanho" do último termo considerável </br>
   
-desv_padrao_amostral(x)
+<b> desv_padrao_amostral(x) </b>
 <br>  Retorna o desvio padrao amostral do conjunto de valores do vetor. </br>
   
-exercicio 1.2
+<b> exercicio 1.2 </b>
 <br>  Não é uma função. Exercício 1.2 da apostila </br>
 
-extrai4(x)
+<b> extrai4(x) </b>
 <br>  Retorna os dois primeiros e os dois últimos valores de um vetor. </br>
 
-fatorial(n)
+<b> fatorial(n) </b>
 <br>  Retorna o fatorial de n </br>
 
-fibonacci(n)
+<b> fibonacci(n) </b>
 <br>  Acha o enésimo número de Fibonacci. A sequência começa com os termos 1,1,2,3,... </br>
   
-oi_p2(nome, genero)
+<b> oi_p2(nome, genero) </b>
 <br>  Função interativa que escreve diferentes mensagens dependendo do gênero. O gênero pode ser ou 0 ou 1. </br>
   
-maiorvalor(a,b,c)
+<b> maiorvalor(a,b,c) </b>
 <br>  Retorna o maior valor entre a, b e c. </br>
   
-maxx(x)
+<b> maxx(x) </b>
 <br>  Retorna o maior número de um vetor </br>
 
-media_vec(x)
+<b> media_vec(x) </b>
 <br>  Calcula a média de um vetor </br>
   
-minn(x)
+<b> minn(x) </b>
 <br>  Retorna o menor número de um vetor </br>
   
-mostrarprimo(n)
+<b> mostrarprimo(n) </b>
 <br>  Retorna um vetor com os números primos até n </br>
   
-oi(nome)
+<b> oi(nome) </b>
 <br>  Retorna uma mensagem com um 'oi'. </br>
   
-parouimpar(n,escolha)
+<b> parouimpar(n,escolha) </b>
 <br>  Jogo de par ou ímpar. Usuário escolhe o número que quer jogar, n, e se deseja par ou ímpar. </br>
   
-pixelization(n)
+<b> pixelization(n) </b>
 <br>  Retorna uma imagem com n*n pixels aleatórios de cores. </br>
   
-poupanca(mesada,dep,juros,preco,inflacao)
+<b> poupanca(mesada,dep,juros,preco,inflacao) </b>
 <br>  Retorna o número de meses que precisa ficar poupando para conseguir comprar o produto desejado com o montante em poupança </br>
   
-primeirosprimos(n)
+<b> primeirosprimos(n) </b>
 <br>  Retorna quantos números primos menores que n existem </br>
   
-primo(n)
+<b> primo(n) </b>
 <br>  Retorna 1, se o número for primo, e 0, caso contrário. </br>
   
-primo_n(n)
+<b> primo_n(n) </b>
 <br>  Retorna o enésimo número primo </br>
   
-primogemeo(x,y)
+<b> primogemeo(x,y) </b>
 <br>  Retorna 1 caso os dois números sejam primo-gêmeos e 0, caso contrário. </br>  
 
-rand_int(number)
+<b> rand_int(number) </b>
 <br>  Mostra um número inteiro escolhido aleatoriamente entre 0 e number. </br>
   
-soma(x)
+<b> soma(x) </b>
 <br>  Retorna a soma dos valores de x, sendo x um vetor. </br>
   
-somainversos(n)
+<b> somainversos(n) </b>
 <br>  Retorna a soma do inverso dos números naturais até n </br>
   
-termos_sr_harmonica(limite)
+<b> termos_sr_harmonica(limite) </b>
 <br>  Calcula qual é o enésimo termo necessário para fazer a série harmônica se tornar maior do que determinado valor. </br>  
   
-trin(n)
+<b> trin(n) </b>
 <br>  Retorna os n primeiros números triangulares </br>
   
-veriftrin(n) 
+<b> veriftrin(n)  </b>
 <br>  Retorna 1 se um número é triangular e 0, caso contrário. </br>
