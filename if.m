@@ -1,4 +1,5 @@
 function oi_p2(nome, genero)
+%
 if genero ==1
     msgbox(['Olá, ' nome '!'])
 else

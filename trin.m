@@ -1,5 +1,5 @@
 function y = trin(n)
-%Calcula os n primeiros números triangulares
+%Retorna os n primeiros números triangulares
 y=[];
 x = 1;
 while length(y) <= n

@@ -1,4 +1,5 @@
 function resposta=primo(n)
+%Retorna 1, se o número for primo, e 0, caso contrário.
 resposta = 1;
 s = n - 1;
 for i=2:s

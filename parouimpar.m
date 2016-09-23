@@ -1,4 +1,6 @@
 function resultado=parouimpar(n,escolha)
+%Jogo de par ou ímpar. Usuário escolhe o número que quer jogar, n, e se
+%deseja par ou ímpar.
 rng('shuffle')
 c=randi([0,10],1);
 soma = c + n;
