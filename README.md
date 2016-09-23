@@ -13,9 +13,6 @@ achar_div(n)
 aleatorio(a,b)
   Retorna um número aleatório entre os números a e b
 
-c2f(c)
-  c2f = celsius to fahrenheit. Converte a temperatura em celsius em fahrenheit
-
 caracoroa(escolha)
   Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador joga a moeda. Função retorna o resultado dizendo se o usuário ganhou ou perdeu.
 
@@ -27,9 +24,6 @@ collatz_vec(n)
   
 conferirprimo()
   Função interativa que pergunta ao usuário qual número ele quer testar e retorna se esse número é primo ou não
-  
-contarprimo(n)  
-  Retorna um vetor com todos os números primos que existem até n. Para contá-los, basta usar length(contarprimo(n))
   
 contarprimogemeo(n)
   Conta quantos pares de números primo-gêmeos existem até n
@@ -56,12 +50,6 @@ exercicio1.2
 extrai4(x)
   Retorna os dois primeiros e os dois últimos valores de um vetor.
 
-f2c(f)
-  Converte fahrenheit para celsius
-  
-f2celsius(f)
-  Converte celsius para fahrenheit
-  
 fatorial(n)
   Retorna o fatorial de n
 
@@ -94,3 +82,36 @@ parouimpar(n,escolha)
   
 pixelization(n)
   Retorna uma imagem com n*n pixels aleatórios de cores.
+  
+poupanca(mesada,dep,juros,preco,inflacao)
+  Retorna o número de meses que precisa ficar poupando para conseguir comprar o produto desejado com o montante em poupança
+  
+primeirosprimos(n)
+  Retorna quantos números primos menores que n existem
+  
+primo(n)
+  Retorna 1, se o número for primo, e 0, caso contrário.
+  
+primo_n(n)
+  Retorna o enésimo número primo
+  
+primogemeo(x,y)
+  Retorna 1 caso os dois números sejam primo-gêmeos e 0, caso contrário.  
+
+rand_int(number)
+  Mostra um número inteiro escolhido aleatoriamente entre 0 e number.
+  
+soma(x)
+  Retorna a soma dos valores de x, sendo x um vetor.
+  
+somainversos(n)
+  Retorna a soma do inverso dos números naturais até n
+  
+termos_sr_harmonica(limite)
+  Calcula qual é o enésimo termo necessário para fazer a série harmônica se tornar maior do que determinado valor.  
+  
+trin(n)
+  Retorna os n primeiros números triangulares
+  
+veriftrin(n)  
+  Retorna 1 se um número é triangular e 0, caso contrário.
