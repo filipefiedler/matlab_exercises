@@ -5,150 +5,113 @@ Lista em ordem alfabética dos programas criados e de suas funções
   Obs.: Muitos programas não possuem as restrições necessárias. Exemplo: a função achar_div(n), que retorna um vetor com todos os divisores de n, deveria resultar em erro caso um número negativo fosse dado, mas isso não acontece. Deveria haver uma verificação no corpo da função, mas, por preguiça, isso não foi feito.
 
 acertar_arcos(x)
-
-  Converte qualquer arco, em radianos, em um arco congruente entre -2pi e 2pi
+<br>  Converte qualquer arco, em radianos, em um arco congruente entre -2pi e 2pi </br>
   
 achar_div(n)
-
-  Retorna um vetor com todos os divisores de um determinado número natural n
+<br>  Retorna um vetor com todos os divisores de um determinado número natural n </br>
   
 aleatorio(a,b)
-
-  Retorna um número aleatório entre os números a e b
+<br>  Retorna um número aleatório entre os números a e b </br>
 
 caracoroa(escolha)
-
-  Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador joga a moeda. Função retorna o resultado dizendo se o usuário ganhou ou perdeu.
+<br>  Usuário dá uma escolha, cara = 0 e coroa = 1 e o computador joga a moeda. Função retorna o resultado dizendo se o usuário ganhou ou perdeu. </br>
 
 collatz(n)
-
-  Conta quantos termos tem a sequência de collatz começando em n
+<br>  Conta quantos termos tem a sequência de collatz começando em n </br>
   
 collatz_vec(n)
-
-  Retorna vetor com todos os números da sequência de Collatz iniciada em n
+<br>  Retorna vetor com todos os números da sequência de Collatz iniciada em n </br>
   
 conferirprimo()
-
-  Função interativa que pergunta ao usuário qual número ele quer testar e retorna se esse número é primo ou não
+<br>  Função interativa que pergunta ao usuário qual número ele quer testar e retorna se esse número é primo ou não </br>
   
 contarprimogemeo(n)
-
-  Conta quantos pares de números primo-gêmeos existem até n
+<br>  Conta quantos pares de números primo-gêmeos existem até n </br>
   
 conversao(t,unidade)
-
-  Converte a temperatura, em celsius ou fahrenheit, para outra unidade. A unidade deve ser 'c', para celsius, ou 'f', para fahrenheit.
+<br>  Converte a temperatura, em celsius ou fahrenheit, para outra unidade. A unidade deve ser 'c', para celsius, ou 'f', para fahrenheit. </br>
   
 costaylor(x,n)
-
-  Calcula o cosseno a partir de sua soma de Taylor até o enésimo termo da série
+<br>  Calcula o cosseno a partir de sua soma de Taylor até o enésimo termo da série </br>
   
 cosTaylor_values(x, precisao)
-
-  Retorna os valores da série de Taylor que determina o cosseno com a precisão desejada
+<br>  Retorna os valores da série de Taylor que determina o cosseno com a precisão desejada </br>
   
 coswhile(x,precisao)
-
-  Calcula a série de Taylor do cosseno.
-  Precisão é o parâmetro que indica o "tamanho" do último termo considerável
+<br>  Calcula a série de Taylor do cosseno. </br>
+<br>  Precisão é o parâmetro que indica o "tamanho" do último termo considerável </br>
   
 desv_padrao_amostral(x)
-
-  Retorna o desvio padrao amostral do conjunto de valores do vetor.
+<br>  Retorna o desvio padrao amostral do conjunto de valores do vetor. </br>
   
 exercicio1.2  
-
-  Não é uma função. Exercício 1.2 da apostila
+<br>  Não é uma função. Exercício 1.2 da apostila </br>
 
 extrai4(x)
-
-  Retorna os dois primeiros e os dois últimos valores de um vetor.
+<br>  Retorna os dois primeiros e os dois últimos valores de um vetor. </br>
 
 fatorial(n)
-
-  Retorna o fatorial de n
+<br>  Retorna o fatorial de n </br>
 
 fibonacci(n)
-
-  Acha o enésimo número de Fibonacci. A sequência começa com os termos 1,1,2,3,...
+<br>  Acha o enésimo número de Fibonacci. A sequência começa com os termos 1,1,2,3,... </br>
   
 oi_p2(nome, genero)
-
-  Função interativa que escreve diferentes mensagens dependendo do gênero. O gênero pode ser ou 0 ou 1.
+<br>  Função interativa que escreve diferentes mensagens dependendo do gênero. O gênero pode ser ou 0 ou 1. </br>
   
 maiorvalor(a,b,c)
-
-  Retorna o maior valor entre a, b e c.
+<br>  Retorna o maior valor entre a, b e c. </br>
   
 maxx(x)
-
-  Retorna o maior número de um vetor
+<br>  Retorna o maior número de um vetor </br>
 
 media_vec(x)
-
-  Calcula a média de um vetor
+<br>  Calcula a média de um vetor </br>
   
 minn(x)
-
-  Retorna o menor número de um vetor
+<br>  Retorna o menor número de um vetor </br>
   
 mostrarprimo(n)
-
-  Retorna um vetor com os números primos até n
+<br>  Retorna um vetor com os números primos até n </br>
   
 oi(nome)
-
-  Retorna uma mensagem com um 'oi'.
+<br>  Retorna uma mensagem com um 'oi'. </br>
   
 parouimpar(n,escolha)
-
-  Jogo de par ou ímpar. Usuário escolhe o número que quer jogar, n, e se deseja par ou ímpar.
+<br>  Jogo de par ou ímpar. Usuário escolhe o número que quer jogar, n, e se deseja par ou ímpar. </br>
   
 pixelization(n)
-
-  Retorna uma imagem com n*n pixels aleatórios de cores.
+<br>  Retorna uma imagem com n*n pixels aleatórios de cores. </br>
   
 poupanca(mesada,dep,juros,preco,inflacao)
-
-  Retorna o número de meses que precisa ficar poupando para conseguir comprar o produto desejado com o montante em poupança
+<br>  Retorna o número de meses que precisa ficar poupando para conseguir comprar o produto desejado com o montante em poupança </br>
   
 primeirosprimos(n)
-
-  Retorna quantos números primos menores que n existem
+<br>  Retorna quantos números primos menores que n existem </br>
   
 primo(n)
-
-  Retorna 1, se o número for primo, e 0, caso contrário.
+<br>  Retorna 1, se o número for primo, e 0, caso contrário. </br>
   
 primo_n(n)
-
-  Retorna o enésimo número primo
+<br>  Retorna o enésimo número primo </br>
   
 primogemeo(x,y)
-
-  Retorna 1 caso os dois números sejam primo-gêmeos e 0, caso contrário.  
+<br>  Retorna 1 caso os dois números sejam primo-gêmeos e 0, caso contrário. </br>  
 
 rand_int(number)
-
-  Mostra um número inteiro escolhido aleatoriamente entre 0 e number.
+<br>  Mostra um número inteiro escolhido aleatoriamente entre 0 e number. </br>
   
 soma(x)
-
-  Retorna a soma dos valores de x, sendo x um vetor.
+<br>  Retorna a soma dos valores de x, sendo x um vetor. </br>
   
 somainversos(n)
-
-  Retorna a soma do inverso dos números naturais até n
+<br>  Retorna a soma do inverso dos números naturais até n </br>
   
 termos_sr_harmonica(limite)
-
-  Calcula qual é o enésimo termo necessário para fazer a série harmônica se tornar maior do que determinado valor.  
+<br>  Calcula qual é o enésimo termo necessário para fazer a série harmônica se tornar maior do que determinado valor. </br>  
   
 trin(n)
-
-  Retorna os n primeiros números triangulares
+<br>  Retorna os n primeiros números triangulares </br>
   
 veriftrin(n) 
-
-  Retorna 1 se um número é triangular e 0, caso contrário.
+<br>  Retorna 1 se um número é triangular e 0, caso contrário. </br>
