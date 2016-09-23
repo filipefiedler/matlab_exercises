@@ -38,8 +38,7 @@ Lista em ordem alfabética dos programas criados e de suas funções
 <br>  Retorna os valores da série de Taylor que determina o cosseno com a precisão desejada </br>
   
 <b> coswhile(x,precisao) </b>
-<br>  Calcula a série de Taylor do cosseno. </br>
-<br>  Precisão é o parâmetro que indica o "tamanho" do último termo considerável </br>
+<br>  Calcula a série de Taylor do cosseno em que o último termo a ser somado é menor do que o parâmetro precisão</br>
   
 <b> desv_padrao_amostral(x) </b>
 <br>  Retorna o desvio padrao amostral do conjunto de valores do vetor. </br>
