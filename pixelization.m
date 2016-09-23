@@ -1,5 +1,5 @@
 function pixelization(n)
-%Retorna uma imagem com n*n pixels aleatórios
+%Retorna uma imagem com n*n pixels aleatórios de cores.
 m=[];
 for i=1:n
     for x=1:n

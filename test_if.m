@@ -1,4 +1,5 @@
 function test_if(nome, genero)
+
 if genero ==1
     msgbox(['Olá, ' nome '!'])
 else

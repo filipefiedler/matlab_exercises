@@ -1,5 +1,5 @@
 function v=extrai4(x)
-
+%Retorna os dois primeiros e os dois últimos valores de um vetor.
 v=[];
 p=length(x);
 s=[1,2,p-1,p];
