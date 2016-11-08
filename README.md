@@ -3,6 +3,10 @@ Exercícios de matlab propostos no curso de Computação da graduação de ciên
 
 Lista em ordem alfabética dos programas criados e de suas funções
   Obs.: Muitos programas não possuem as restrições necessárias. Exemplo: a função achar_div(n), que retorna um vetor com todos os divisores de n, deveria resultar em erro caso um número negativo fosse dado, mas isso não acontece. Deveria haver uma verificação no corpo da função, mas, por preguiça, isso não foi feito.
+  
+  As funções estão divididas em funções feitas antes da A1 e funções feitas depois da A1 e antes da A2.
+  
+A1
 
 <b> acertar_arcos(x) </b>
 <br>  Converte qualquer arco, em radianos, em um arco congruente entre -2pi e 2pi </br>
@@ -114,3 +118,23 @@ Lista em ordem alfabética dos programas criados e de suas funções
   
 <b> veriftrin(n)  </b>
 <br>  Retorna 1 se um número é triangular e 0, caso contrário. </br>
+
+A2
+
+<b> sortear_cartas(n,tipo) </b>
+<br> Retorna n cartas de um baralho com repetição (tipo = 1) ou sem repetição (tipo = 2) </br>
+
+<b> merge_order(a,b) </b>
+<br> Retorna um vetor ordenado com os elementos de ambos os vetores </br>
+
+<b> newton_method(f,g,x0,precisao) </b>
+<br> Retorna uma das raízes da função f com precisao determinada a partir de x0. Nessa função, é necessário dar como parâmetro a função derivada g da função f. </br>
+
+<b> brasileirao2015(dados) </b>
+<br> Retorna uma tabela do brasileirão a partir dos dados dos jogos. </br>
+
+<b> matriz_adj(arestas) </b>
+<br> Cria uma matriz de adjacência a partir de uma tabela com as arestas da rede. </br>
+
+<b> lista_de_arestas(matriz_adj) </b>
+<br> Cria uma matriz com a lista de arestas a partir de uma matriz de adjacência de uma rede. </br>
